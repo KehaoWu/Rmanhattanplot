@@ -5,6 +5,8 @@
 > 
 We provide codes to plot manhattan plot which is commonly used to display p values from GWAS.
 
+!["Manhattan Plot"](Demo/manhattanplot.png "Manhattan Plot")
+
 ## 安装 / Installation
   
 ```R  
@@ -36,5 +38,5 @@ devtools::install_github("KehaoWu/Rmanhattanplot")
 > plot(p) #返回gglot2对象
 ```
 
-!["Manhattan Plot"](Demo/manhattanplot.png "Manhattan Plot")
+
 
