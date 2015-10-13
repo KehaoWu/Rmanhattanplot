@@ -36,5 +36,5 @@ devtools::install_github("KehaoWu/Rmanhattanplot")
 > plot(p) #返回gglot2对象
 ```
 
-!["Manhattan Plot"](Demo/ "Manhattan Plot")
+!["Manhattan Plot"](Demo/manhattanplot.png "Manhattan Plot")
 
