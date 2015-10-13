@@ -20,9 +20,9 @@ devtools::install_github("KehaoWu/Rmanhattanplot")
 
 ```R
 # 以下代码仅提供示例数据，不要在真实的环境中运行
-pvalue = runif(100)
-bp = sample(10000:20000,100)
-chr = sample(1:22,100,replace=T)
+> pvalue = runif(100)
+> bp = sample(10000:20000,100)
+> chr = sample(1:22,100,replace=T)
 > head(pvalue)
 [1] 0.34011080 0.58690499 0.55647674 0.85494148 0.07878192 0.46782922
 > head(bp)
@@ -31,9 +31,9 @@ chr = sample(1:22,100,replace=T)
 [1]  2  9 11 19  8 20
 
 # 提供类似的数据运行以下代码
-library(Rmanhattanplot)
-p = manhattanPlot(pvalue = pvalue,bp = bp,chr = chr,cutoffline = T)
-plot(p) #返回gglot2对象
+> library(Rmanhattanplot)
+> p = manhattanPlot(pvalue = pvalue,bp = bp,chr = chr,cutoffline = T)
+> plot(p) #返回gglot2对象
 ```
 
 !["Manhattan Plot"](Demo/ "Manhattan Plot")
