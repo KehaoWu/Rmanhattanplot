@@ -31,6 +31,7 @@ chr = sample(1:22,100,replace=T)
 [1]  2  9 11 19  8 20
 
 # 提供类似的数据运行以下代码
+library(Rmanhattanplot)
 p = manhattanPlot(pvalue = pvalue,bp = bp,chr = chr,cutoffline = T)
 plot(p) #返回gglot2对象
 ```
