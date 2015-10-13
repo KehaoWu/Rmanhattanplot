@@ -38,5 +38,5 @@ devtools::install_github("KehaoWu/Rmanhattanplot")
 > plot(p) #返回gglot2对象
 ```
 
-
+参考：[Make manhattan plot with ggplot2 script](https://pods.iplantcollaborative.org/wiki/display/eot/Make+manhattan+plot+with+ggplot2+script)
 
