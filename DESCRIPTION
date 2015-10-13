@@ -7,6 +7,7 @@ Authors@R: c(person("Kehao Wu", "Developer", role = c("aut", "cre"),
 Author: Kehao WU [aut, cre]
 Maintainer: Kehao Wu <kehao.wu@gmail.com>
 Imports:ggplot2
+Depends:ggplot2
 Description: We provide codes to plot manhattan plot which is commonly used to display p values from GWAS.
 License: MIT
 URL: https://github.com/KehaoWu/Rmanhattanplot
